@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.primeira-sessao{
+    background-color: gold;
+    width: 500px;
+    height: 500px;
+
+    div{
+    background-color: blue;
+    width: 50vw;
+    height: 50vh;
+    }
+
+    // medidas relativas 
+    //  vw (viewport width)
+    // largura da janela visualização
+    //  1vw é igual a 1% da largura da sua pagina
+    // vh (viewport heigth) - Altura da janela de visualização.
+}
+
+.segunda-sessao{
+    background-color: navy;
+    width: 50vw;
+    height: 50vh;
+    
+    div{
+       background-color: red;
+        width: 50%;
+        height: 50%;
+    }
+}
